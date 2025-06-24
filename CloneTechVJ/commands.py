@@ -44,7 +44,7 @@ async def start(client, message):
             up = cd["update_channel_link"]
             buttons.append([InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍿', url=up)])
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEOxl1oWsNx5ZJa7mq-GpHdGxoPbwG3FQACXQMAAlsh8FX4yjmbdxbk4zYE") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_text(

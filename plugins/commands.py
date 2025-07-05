@@ -47,26 +47,17 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚠️ 𝙷𝙴𝙻𝙿', callback_data='help'),
-                InlineKeyboardButton('⚙️ 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-            ],[
-                InlineKeyboardButton('📡 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f'https://t.me/TBM_Bot_Updates'),
-                InlineKeyboardButton('🍿 𝙼𝙾𝚅𝙸𝙴 𝙶𝚁𝙾𝚄𝙿', url=f'https://t.me/CINEMA_COMPANYE_Backup')
-            ]]
+                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
+                ]]
         else:
             buttons = [[
-                InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚠️ 𝙷𝙴𝙻𝙿', callback_data='help'),
-                InlineKeyboardButton('⚙️ 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-            ],[
-                InlineKeyboardButton('📡 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url=f'https://t.me/TBM_Bot_Updates'),
-                InlineKeyboardButton('🍿 𝙼𝙾𝚅𝙸𝙴 𝙶𝚁𝙾𝚄𝙿', url=f'https://t.me/CINEMA_COMPANYE_Backup')
-            ]]
+                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
         if CLONE_MODE == True:
-            buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
+           ]] buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
         
         await message.reply_photo(

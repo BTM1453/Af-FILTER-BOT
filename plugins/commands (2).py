@@ -31,6 +31,8 @@ async def start(client, message):
             InlineKeyboardButton('💡sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=f'https://t.me/+3MxWcdHBE-00YjU1'),
             InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
         ],[
+            InlineKeyboardButton('🧑‍💻𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿', url=f'https://t.me/MR_BOT_EDITER')
+        ],[
             InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,12 +51,16 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
+            InlineKeyboardButton('🧑‍💻𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿', url=f'https://t.me/MR_BOT_EDITER')
+        ],[
                 InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
                 ]]
         else:
             buttons = [[
                 InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
+            InlineKeyboardButton('🧑‍💻𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿', url=f'https://t.me/MR_BOT_EDITER')
+        ],[
                 InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
             ]]
         if CLONE_MODE == True:

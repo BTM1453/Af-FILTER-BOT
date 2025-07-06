@@ -57,9 +57,9 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
             ]]
-            
-buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
-        reply_markup = InlineKeyboardMarkup(buttons)        
+ if CLONE_MODE == True:
+           buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
+        reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),

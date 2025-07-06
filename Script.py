@@ -3,9 +3,8 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
-    
-🍿 I am a movie bot and I can give you all the movies you want But if you search for a movie without spelling mistakes, you will get the movie Thanks ☺️</b>"""
+    START_TXT = """<b>ʜᴇʟʟᴏ {} 👋 🍿 I am a movie bot and I can give you all the movies you want But if you search for a movie without spelling mistakes, you will get the movie Thanks ☺️</b>"""
+    
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     

@@ -71,9 +71,9 @@ async def save_group(bot, message):
                     reply_markup=InlineKeyboardMarkup(button),
                     parse_mode=enums.ParseMode.HTML
                 )  
-        if settings["auto_delete"]:
-            await asyncio.sleep(600)
-            await (temp.MELCOW['welcome']).delete()
+        if settings[""]:
+            await asyncio.sleep()
+            await (temp.MELCOW['welcome']).()
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
 async def leave_a_chat(bot, message):

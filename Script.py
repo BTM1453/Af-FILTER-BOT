@@ -1,14 +1,6 @@
 
 class script(object):
-    START_TXT = """<b>𝗛𝗲𝗹𝗹𝗼 {} 👋</b> 𝗜𝗮𝗺 𝗙𝗶𝗹𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗕𝗼𝘁
-
-<b><blockquote>𝗜𝗮𝗺 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁.𝗬𝗼𝘂 𝗖𝗮𝗻 𝗦𝗲𝗮𝗿𝗰𝗵 𝗠𝗼𝘃𝗶𝗲/𝗦𝗲𝗿𝗶𝗲𝘀 𝗜𝗻 𝗠𝘆 <a href='https://t.me/CINEMA_COMPANYE_Backup'>𝗚𝗿𝗼𝘂𝗽</a></b></blockquote>
-
-<b><blockquote>𝗠𝗼𝘃𝗶𝗲/𝗦𝗲𝗿𝗶𝗲𝘀 𝗦𝗲𝗮𝗿𝗰𝗵 𝗘𝘅𝗮𝗺𝗽𝗹𝗲 :- 
-𝗽𝗮𝗱𝗮𝗸𝗸𝗮𝗹𝗮𝗺 𝗼𝗿 𝗣𝗮𝗱𝗮𝗸𝗸𝗮𝗹𝗮𝗺 𝟮𝟬𝟮𝟱
-𝗹𝗼𝗰𝗸𝗶 𝗦𝟬𝟭𝗘𝟬𝟭 𝗼𝗿 𝗹𝗼𝗰𝗸𝗶 𝗦𝟬𝟭</b></blockquote>
-
-𝗔𝗱𝗺𝗶𝗻 :@FileSearchAdmin_Bot"""
+    START_TXT = """<b>ʜᴇʟʟᴏ {} 👋 🍿 I am a movie bot and I can give you all the movies you want But if you search for a movie without spelling mistakes, you will get the movie Thanks ☺️</b>"""
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""

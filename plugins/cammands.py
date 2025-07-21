@@ -32,7 +32,7 @@ async def start(client, message):
         ],[
             InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/TBM_Bot_Updates')
         ],[
-            InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/TBM_Bot_Updates')
+            InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/Friday_Filim_House')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -52,7 +52,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/MR_BOT_EDITER')
         ],[
-                InlineKeyboardButton('📺𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/TBM_Bot_Updates')
+                InlineKeyboardButton('📺𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/Friday_Filim_House')
                 ]]
         else:
             buttons = [[
@@ -60,7 +60,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/TBM_Bot_Updates')
         ],[
-                InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
+                InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀📺', url=f'https://t.me/Friday_Filim_House')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -133,7 +133,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀', url=f'https://t.me/TBM_Bot_Updates📺')
             ],[
-                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
+                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/Friday_Filim_House')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])

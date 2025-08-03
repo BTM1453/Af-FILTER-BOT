@@ -14,7 +14,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', '')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/7f6e6102b957f4d26589c-c796bb71ee8d07b542.jpg')).split()
 
 
 # Admins & Users

@@ -94,7 +94,7 @@ async def auto_approve(client, message: ChatJoinRequest):
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
             await message.reply_text(
     script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME)
-)
+(
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )

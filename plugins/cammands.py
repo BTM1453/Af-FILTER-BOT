@@ -30,7 +30,7 @@ async def start(client, message):
         buttons = [[          
             InlineKeyboardButton('⚓ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⚓', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/TBM_Bot_Updates')
+            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/+fgT9ogX7z144NjM1')
         ],[
             InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/Friday_Filim_House')
         ]]
@@ -50,7 +50,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⚓ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⚓', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/MR_BOT_EDITER')
+            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/+fgT9ogX7z144NjM1')
         ],[
                 InlineKeyboardButton('📺𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/Friday_Filim_House')
                 ]]
@@ -58,7 +58,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⚓ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⚓', url=f'https://t.me/CINEMA_COMPANYE_Backup')
             ],[
-            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/TBM_Bot_Updates')
+            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/+fgT9ogX7z144NjM1')
         ],[
                 InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀📺', url=f'https://t.me/Friday_Filim_House')
             ]]

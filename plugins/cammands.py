@@ -28,11 +28,20 @@ async def start(client, message):
         pass
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[          
-            InlineKeyboardButton('⚓ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⚓', url=GRP_LNK)
-        ],[
-            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/+fgT9ogX7z144NjM1')
-        ],[
-            InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/Friday_Filim_House')
+            InlineKeyboardButton(f'🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/TBM_Bot_Updates'),
+         
+
+InlineKeyboardButton(f'🔹ɢʀᴏᴜᴩ🔹', url='https://t.me/CINEMA_COMPANYE_Backup'),    
+
+              ],[
+
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+
+              ],[
+       InlineKeyboardButton(f'⚙️ ᴏᴛᴛ - 2⚙️',                       url='https://t.me/+fgT9ogX7z144NjM1'), 
+     
+
+            InlineKeyboardButton(f'🖥️ Oᴛᴛ - 1 🖥️', url='https://t.me/+JObo3SXOiZRlNzll')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -45,22 +54,21 @@ async def start(client, message):
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
-    if len(message.command) != 2:
-        if PREMIUM_AND_REFERAL_MODE == True:
-            buttons = [[
-                InlineKeyboardButton('⚓ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⚓', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/+fgT9ogX7z144NjM1')
-        ],[
-                InlineKeyboardButton('📺𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 📺', url=f'https://t.me/Friday_Filim_House')
-                ]]
-        else:
-            buttons = [[
-                InlineKeyboardButton('⚓ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⚓', url=f'https://t.me/CINEMA_COMPANYE_Backup')
-            ],[
-            InlineKeyboardButton('⚙️ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ⚙️', url=f'https://t.me/+fgT9ogX7z144NjM1')
-        ],[
-                InlineKeyboardButton('📺 𝗟𝗮𝘁𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀📺', url=f'https://t.me/Friday_Filim_House')
+    if l                InlineKeyboardButton(f'🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/TBM_Bot_Updates'),
+         
+
+InlineKeyboardButton(f'🔹ɢʀᴏᴜᴩ🔹', url='https://t.me/CINEMA_COMPANYE_Backup'),    
+
+              ],[
+
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+
+              ],[
+       InlineKeyboardButton(f'⚙️ ᴏᴛᴛ - 2⚙️',                       url='https://t.me/+fgT9ogX7z144NjM1'), 
+     
+
+            InlineKeyboardButton(f'🖥️ Oᴛᴛ - 1 🖥️', url='https://t.me/+JObo3SXOiZRlNzll')
+     
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -124,17 +132,21 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('ᴏᴜʀ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
-            ],[
-                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/TBM_Bot_Updates')
-            ]]
-        else:
-            buttons = [[
-                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀', url=f'https://t.me/TBM_Bot_Updates📺')
-            ],[
-                InlineKeyboardButton('📺𝗢𝘂𝗿 𝗠𝗼𝘃𝗶𝗲 / 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀📺', url=f'https://t.me/Friday_Filim_House')
-            ]]
+                             InlineKeyboardButton(f'🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/TBM_Bot_Updates'),
+         
+
+InlineKeyboardButton(f'🔹ɢʀᴏᴜᴩ🔹', url='https://t.me/CINEMA_COMPANYE_Backup'),    
+
+              ],[
+
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+
+              ],[
+       InlineKeyboardButton(f'⚙️ ᴏᴛᴛ - 2⚙️',                       url='https://t.me/+fgT9ogX7z144NjM1'), 
+     
+
+            InlineKeyboardButton(f'🖥️ Oᴛᴛ - 1 🖥️', url='https://t.me/+JObo3SXOiZRlNzll')
+                ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)      
